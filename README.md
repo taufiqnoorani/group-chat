@@ -1,4 +1,5 @@
 # ThreadLine – Multithreaded Group Chat Application (JavaFX + Sockets)
+A real-time JavaFX chat application with a multithreaded server built using Java sockets and Maven.
 
 ThreadLine is a fully functional group chat application built using JavaFX and Java sockets. It consists of a multithreaded server and a JavaFX-based client GUI that allows multiple users to communicate with each other in real time. This project demonstrates key concepts of network programming, multithreading, GUI development, and Maven-based project management.
 
@@ -47,7 +48,7 @@ group-chat/
         ├── Main.java         # Launches JavaFX client
         ├── Client.java       # Client socket + GUI logic
         ├── Server.java       # Starts server socket
-        ├── ClientThread.java # Manages each connected client
+        └── ClientThread.java # Manages each connected client
 ```
 
 ---
@@ -104,4 +105,4 @@ mvn javafx:run -DmainArgs="localhost 1234"
 
 ## License
 
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](LICENSE).
